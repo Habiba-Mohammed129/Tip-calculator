@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class=" bil w-50">
+        <div class="card py-5 border-0 rounded-3">
+            <h1 class="text-primary pb-3 ms-4">tip calculator</h1>
+            <form action="">
+                <label for="" class="ms-4">bill amount</label>
+                <input type="text" id="bill" class="form-control m-1">
+                <label for="" class="ms-4">tip prepresentage</label>
+                <select name="" id="tip" class="form-select m-1">
+                    <option value="10">10%</option>
+                    <option value="15">15%</option>
+                    <option value="20">20%</option>
+                    <option value="25">25%</option>
+                   
+                </select>
+            </form>
+            <button type="button" class="btn btn-primary w-100 mt-4" onclick="billcalculator()">calculator tip</button>
+            <p class="text-center">bill amount: <span id="billamount" >$:00</span></p>
+           
+        </div>
+    </section>
+    
+
+    
+    
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
